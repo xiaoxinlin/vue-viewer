@@ -1,6 +1,6 @@
 {
   "name": "vue-viewer-directive",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "基于viewer的vue图片预览指令",
   "main": "dist/vue-viewer.common.js",
   "module": "dist/vue-viewer.esm.js",
