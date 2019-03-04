@@ -3,6 +3,8 @@ vue-viewer
 
 基于[Viewer.js](https://github.com/fengyuanchen/viewerjs)封装的vue图片预览插件
 
+[demo演示](https://xiaoxinlin.github.io/vue-viewer/)
+
 Install
 -------
         npm install --save vue-viewer-directive
