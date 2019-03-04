@@ -5,14 +5,14 @@ vue-viewer
 
 Install
 -------
-        npm install --save vue-viewer
+        npm install --save vue-viewer-directive
 
 Usage
 -----
 ### 初始化
 ```js
 import Vue from 'vue';
-import viewer from 'vue-viewer';
+import viewer from 'vue-viewer-directive';
 Vue.use(viewer, options);
 ```
 - **options**(可选)
