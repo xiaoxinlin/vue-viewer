@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>测试图片预览</title>
+</head>
+<body>
+  <div id="app">
+    <h1>{{message}}</h1>
+    <img v-viewer src="https://t1.hddhhn.com/uploads/tu/201612/98/st93.png" alt="">
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script src="./dist/vue-viewer.min.js"></script>
+  <script>
+    Vue.use(Viewer, {
+      navbar: false,
+      toolbar: {
+        zoomIn: 4,
+        zoomOut: 4,
+        oneToOne: 4,
+        reset: 4,
+        rotateLeft: 4,
+        rotateRight: 4
+      }
+    });
+    new Vue({
+      el: '#app',
+      data: {
+        message: '测试图片预览'
+      }
+    })
+  </script>
+</body>
+
+</html>
