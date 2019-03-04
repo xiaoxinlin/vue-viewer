@@ -19,6 +19,6 @@ Vue.use(viewer, options);
     - 类型： `Object`
     - viewing的配置项. 查看可用[选项](https://github.com/fengyuanchen/viewerjs/blob/master/README.md#options).
 ### 以指令的方式调用
-```js
+```html
 <img v-viewer src="https://t1.hddhhn.com/uploads/tu/201612/98/st93.png" alt="">
 ```
